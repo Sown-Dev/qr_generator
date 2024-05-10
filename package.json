@@ -1,0 +1,15 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generatorQR.js",
+  "type": "module",
+  "scripts": {
+    "start": "node generatorQR.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "inquirer": "^8.2.4",
+    "qr-image": "^3.2.0"
+  }
+}
